@@ -1,0 +1,2839 @@
+{
+    "M_UV": {
+        "NorProperty": [
+            {
+                "Base": []
+            }
+        ],
+        "Prop": {
+            "BS_DiffuseTexturePath": {
+                "name": "path",
+                "type": 36,
+                "value": "checkerTextureColor.png"
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": true
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        "TexProperty": [
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            }
+        ],
+        "type": "M_UV"
+    },
+    "M_Emissive": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 10,
+                "min": 0,
+                "name": "Intensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        "type": "M_Emissive"
+    },
+    "M_Default": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_CheckBoardSize": "BS_CheckBoardSize"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_CheckBoardSize": {
+                "max": 1000,
+                "min": 0,
+                "name": "CheckBoardSize",
+                "step": 1,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        "type": "M_Default"
+    },
+    "M_Matte": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        "type": "M_Matte"
+    },
+    "M_Glass": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_Exponent": "BS_Exponent"
+                    },
+                    {
+                        "BS_Fmin": "BS_Fmin"
+                    },
+                    {
+                        "BS_Fmax": "BS_Fmax"
+                    },
+                    {
+                        "BS_IOR": "BS_IOR"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_GlossyColor": "BS_GlossyColor"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_EnvBlend": "BS_EnvBlend"
+                    },
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 3
+            },
+            "BS_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.12
+            },
+            "BS_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0.98
+            },
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0
+            },
+            "BS_EnvBlend": {
+                "max": 1,
+                "min": 0,
+                "name": "envBlend",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_DiffuseColor": {
+                "name": "RefractColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_GlossyColor": {
+                "name": "ReflectColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_IOR": {
+                "max": 5,
+                "min": 0,
+                "name": "IOR",
+                "step": 0.1,
+                "type": 10,
+                "value": 1.4
+            },
+            "Env_SampleVariable": {
+                "max": 5,
+                "min": 0,
+                "name": "Env_SampleVariable",
+                "step": 1,
+                "type": 10,
+                "value": 1
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orange_peel_high.tif"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 1
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            }
+        },
+        "TexProperty": [
+            {
+                "NormalTexture": [
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    },
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_Glass"
+    },
+    "M_Metal": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_GlossyColor": "BS_GlossyColor"
+                    },
+                    {
+                        "BS_Roughness": "BS_Roughness"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "path",
+                "type": 36,
+                "value": "Copper1_c.png"
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.1,
+                "type": 10,
+                "value": 1
+            },
+            "BS_GlossyColor": {
+                "name": "GlossyColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "Copper1_s.png"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_Roughness": {
+                "max": 1,
+                "min": 0,
+                "name": "Roughness",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.5
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseGlossyMapTS",
+                "type": 1,
+                "value": false
+            },
+            "Env_SampleVariable": {
+                "max": 5,
+                "min": 0,
+                "name": "Env_SampleVariable",
+                "step": 1,
+                "type": 10,
+                "value": 1
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "Copper1_n.png"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            }
+        },
+        "TexProperty": [
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    },
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_Metal"
+    },
+    "M_Leather": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_Exponent": "BS_Exponent"
+                    },
+                    {
+                        "BS_Fmin": "BS_Fmin"
+                    },
+                    {
+                        "BS_Fmax": "BS_Fmax"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_ReflectColor": "BS_ReflectColor"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_GlossyColor": "BS_GlossyColor"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_GlossyColor": {
+                "name": "GlossyColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 5
+            },
+            "BS_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0
+            },
+            "BS_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.01,
+                "type": 10,
+                "value": 0
+            },
+            "BS_ReflectColor": {
+                "name": "ReflectColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 0.2
+                    },
+                    {
+                        "value": 0.2
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "wood_diffuseTex.jpg"
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.1,
+                "type": 10,
+                "value": 2.2
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "wood_glossy.jpg"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_UVRepeat": {
+                "name": "uvRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_Roughness": {
+                "max": 1,
+                "min": 0.0010000000474974513,
+                "name": "Roughness",
+                "step": 0.009999999776482582,
+                "type": 10,
+                "value": 0.20000000298023224
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseGlossyMapTS",
+                "type": 1,
+                "value": false
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": true
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "leather_normal_texture.jpg"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_Repeat": {
+                "max": 10000000,
+                "min": 0,
+                "name": "Repeat",
+                "step": 0.01,
+                "type": 10,
+                "value": 3
+            }
+        },
+        "TexProperty": [
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    },
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_Repeat": "GE_Repeat"
+                    },
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_Leather"
+    },
+    "M_Metal_Brushed": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_AnisotropyU": "BS_AnisotropyU"
+                    },
+                    {
+                        "BS_AnisotropyV": "BS_AnisotropyV"
+                    },
+                    {
+                        "BS_CenterX": "BS_CenterX"
+                    },
+                    {
+                        "BS_CenterY": "BS_CenterY"
+                    },
+                    {
+                        "BS_CenterZ": "BS_CenterZ"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_DiffuseReflectance": "BS_DiffuseReflectance"
+                    },
+                    {
+                        "BS_GlossyColor": "BS_GlossyColor"
+                    },
+                    {
+                        "BS_SpecularReflectance": "BS_SpecularReflectance"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_AnisotropyU": {
+                "max": 10000,
+                "min": 1,
+                "name": "Anisotropyu",
+                "step": 10,
+                "type": 10,
+                "value": 10000
+            },
+            "BS_AnisotropyV": {
+                "max": 10000,
+                "min": 1,
+                "name": "Anisotropyv",
+                "step": 10,
+                "type": 10,
+                "value": 10000
+            },
+            "BS_CenterX": {
+                "max": 1,
+                "min": -1,
+                "name": "CenterX",
+                "step": 0.1,
+                "type": 10,
+                "value": 1
+            },
+            "BS_CenterY": {
+                "max": 1,
+                "min": -1,
+                "name": "CenterY",
+                "step": 0.1,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_CenterZ": {
+                "max": 1,
+                "min": -1,
+                "name": "CenterZ",
+                "step": 0.1,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "brushed_alu2_normal.tif"
+            },
+            "BS_DiffuseReflectance": {
+                "max": 1,
+                "min": 0,
+                "name": "diffuseReflectance",
+                "step": 0.1,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_GlossyColor": {
+                "name": "GlossyColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "brushed_alu2_normal.tif"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_SpecularReflectance": {
+                "max": 1,
+                "min": 0,
+                "name": "specularReflectance",
+                "step": 0.1,
+                "type": 10,
+                "value": 1
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseMetalBrushedDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.1,
+                "type": 10,
+                "value": 2.2
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseMetalBrushedGlossyMapTS",
+                "type": 1,
+                "value": false
+            },
+            "Env_SampleVariable": {
+                "max": 5,
+                "min": 0,
+                "name": "Env_SampleVariable",
+                "step": 1,
+                "type": 10,
+                "value": 1
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "brushed_alu2_normal.tif"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            }
+        },
+        "TexProperty": [
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    },
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    },
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_Metal_Brushed"
+    },
+    "M_Rubber": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "BS_Exponent": "BS_Exponent"
+                    },
+                    {
+                        "BS_Fmin": "BS_Fmin"
+                    },
+                    {
+                        "BS_Fmax": "BS_Fmax"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_GlossyColor": "BS_GlossyColor"
+                    },
+                    {
+                        "BS_ReflectColor": "BS_ReflectColor"
+                    },
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 0.0353
+                    },
+                    {
+                        "value": 0.0353
+                    },
+                    {
+                        "value": 0.0353
+                    }
+                ]
+            },
+            "BS_ReflectColor": {
+                "name": "ReflectColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "tire_normal.jpg"
+            },
+            "BS_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 5
+            },
+            "BS_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0.05
+            },
+            "BS_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.01,
+                "type": 10,
+                "value": 0
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.1,
+                "type": 10,
+                "value": 2.2
+            },
+            "BS_GlossyColor": {
+                "name": "GlossyColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "tire_bump.jpg"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseGlossyMapTS",
+                "type": 1,
+                "value": true
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "tire_normal.jpg"
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": true
+            }
+        },
+        "TexProperty": [
+            {
+                "NormalTexture": [
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    }
+                ]
+            },
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    },
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    }
+                ]
+            }
+        ],
+        "type": "M_Rubber"
+    },
+    "M_Wood": {
+        "NorProperty": [
+            {
+                "Coat": [
+                    {
+                        "CC_Color": "CC_Color"
+                    },
+                    {
+                        "CC_Exponent": "CC_Exponent"
+                    },
+                    {
+                        "CC_Fmin": "CC_Fmin"
+                    },
+                    {
+                        "CC_Fmax": "CC_Fmax"
+                    },
+                    {
+                        "CC_Weight": "CC_Weight"
+                    }
+                ]
+            },
+            {
+                "Base": [
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "CC_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "CC_Color": {
+                "name": "Color",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 5
+            },
+            "CC_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0.98
+            },
+            "CC_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.08
+            },
+            "CC_Weight": {
+                "max": 1,
+                "min": 0,
+                "name": "Weight",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.01
+            },
+            "CC_OrangePeelTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "CC_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "CC_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_UseOrangePeelNormalMapTS": {
+                "name": "UseOrangePeelNormalMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 0.5
+                    },
+                    {
+                        "value": 0.5
+                    },
+                    {
+                        "value": 0.5
+                    }
+                ]
+            },
+            "BS_BaseColour": {
+                "name": "BaseColour",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 0.062
+                    },
+                    {
+                        "value": 0.062
+                    },
+                    {
+                        "value": 0.062
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "wood_diffuseTex.jpg"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_Roughness": {
+                "max": 1,
+                "min": 0.0010000000474974513,
+                "name": "Roughness",
+                "step": 0.009999999776482582,
+                "type": 10,
+                "value": 0.20000000298023224
+            },
+            "BS_Reflectivity": {
+                "max": 1,
+                "min": 0.0010000000474974513,
+                "name": "Reflectivity",
+                "step": 0.009999999776482582,
+                "type": 10,
+                "value": 0.20000000298023224
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": true
+            },
+            "BS_UVRepeat": {
+                "name": "uvRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_BumpTexturePath": {
+                "enable": false,
+                "name": "BumpTexturePath",
+                "type": 36,
+                "value": "wood_normal.jpg"
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        "TexProperty": [
+            {
+                "OrangePeelTexture": [
+                    {
+                        "CC_BumpScale": "CC_BumpScale"
+                    },
+                    {
+                        "CC_OrangePeelTexturePath": "CC_OrangePeelTexturePath"
+                    },
+                    {
+                        "CC_Rotation": "CC_Rotation"
+                    },
+                    {
+                        "CC_UVRepeat": "CC_UVRepeat"
+                    },
+                    {
+                        "CC_UseOrangePeelNormalMapTS": "CC_UseOrangePeelNormalMapTS"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    },
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    }
+                ]
+            },
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            }
+        ],
+        "type": "M_Wood"
+    },
+    "M_CarPaint_Unicolor_Clear": {
+        "NorProperty": [
+            {
+                "Coat": [
+                    {
+                        "CC_Color": "CC_Color"
+                    },
+                    {
+                        "CC_Exponent": "CC_Exponent"
+                    },
+                    {
+                        "CC_Fmin": "CC_Fmin"
+                    },
+                    {
+                        "CC_Fmax": "CC_Fmax"
+                    },
+                    {
+                        "CC_EnvBlend": "CC_EnvBlend"
+                    },
+                    {
+                        "CC_Weight": "CC_Weight"
+                    }
+                ]
+            },
+            {
+                "Base": [
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    },
+                    {
+                        "BS_EnvBlend": "BS_EnvBlend"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_EnvBlend": {
+                "max": 1,
+                "min": 0,
+                "name": "envBlend",
+                "step": 0.01,
+                "type": 10,
+                "value": 0
+            },
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 0.0667
+                    },
+                    {
+                        "value": 0.094
+                    },
+                    {
+                        "value": 0.68
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.001,
+                "type": 10,
+                "value": 2.2
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseMatteDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseMatteGlossyMapTS",
+                "type": 1,
+                "value": false
+            },
+            "CC_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "CC_Color": {
+                "name": "Color",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_EnvBlend": {
+                "max": 1,
+                "min": 0,
+                "name": "envBlend",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "CC_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 3.05
+            },
+            "CC_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0.98
+            },
+            "CC_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.001,
+                "type": 10,
+                "value": 0.003
+            },
+            "CC_OrangePeelTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "CC_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "CC_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_Weight": {
+                "max": 1,
+                "min": 0,
+                "name": "Weight",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "CC_UseOrangePeelNormalMapTS": {
+                "name": "UseOrangePeelNormalMapTS",
+                "type": 1,
+                "value": false
+            },
+            "Env_SampleVariable": {
+                "max": 5,
+                "min": 0,
+                "name": "Env_SampleVariable",
+                "step": 1,
+                "type": 10,
+                "value": 1
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "tire_normal.jpg"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            }
+        },
+        "TexProperty": [
+            {
+                "OrangePeelTexture": [
+                    {
+                        "CC_BumpScale": "CC_BumpScale"
+                    },
+                    {
+                        "CC_OrangePeelTexturePath": "CC_OrangePeelTexturePath"
+                    },
+                    {
+                        "CC_Rotation": "CC_Rotation"
+                    },
+                    {
+                        "CC_UVRepeat": "CC_UVRepeat"
+                    },
+                    {
+                        "CC_UseOrangePeelNormalMapTS": "CC_UseOrangePeelNormalMapTS"
+                    }
+                ]
+            },
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    },
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    },
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    },
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_CarPaint_Unicolor_Clear"
+    },
+    "M_CarPaint_Metallic": {
+        "NorProperty": [
+            {
+                "Coat": [
+                    {
+                        "CC_Color": "CC_Color"
+                    },
+                    {
+                        "CC_Exponent": "CC_Exponent"
+                    },
+                    {
+                        "CC_Fmin": "CC_Fmin"
+                    },
+                    {
+                        "CC_Fmax": "CC_Fmax"
+                    },
+                    {
+                        "CC_Weight": "CC_Weight"
+                    }
+                ]
+            },
+            {
+                "Flake": [
+                    {
+                        "CF_Color": "CF_Color"
+                    },
+                    {
+                        "CF_Irregularity": "CF_Irregularity"
+                    },
+                    {
+                        "CF_Density": "CF_Density"
+                    },
+                    {
+                        "CF_Size": "CF_Size"
+                    }
+                ]
+            },
+            {
+                "Base": [
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.001,
+                "type": 10,
+                "value": 2.2
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseGlossyMapTS",
+                "type": 1,
+                "value": false
+            },
+            "CC_Weight": {
+                "max": 1,
+                "min": 0,
+                "name": "Weight",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "CC_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "CC_Color": {
+                "name": "Color",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 5
+            },
+            "CC_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0.98
+            },
+            "CC_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.08
+            },
+            "CC_OrangePeelTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "CC_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "CC_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_UseOrangePeelNormalMapTS": {
+                "name": "UseOrangePeelNormalMapTS",
+                "type": 1,
+                "value": false
+            },
+            "CF_Repeat": {
+                "max": 10000000,
+                "min": 0,
+                "name": "Repeat",
+                "step": 0.01,
+                "type": 10,
+                "value": 3
+            },
+            "CF_Density": {
+                "max": 1,
+                "min": 0,
+                "name": "Density",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "CF_Irregularity": {
+                "max": 1,
+                "min": 0,
+                "name": "Irregularity",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.3
+            },
+            "CF_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "CF_Size": {
+                "max": 100,
+                "min": 0.0001,
+                "name": "Size",
+                "step": 0.01,
+                "type": 10,
+                "value": 10
+            },
+            "CF_Color": {
+                "name": "Color",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 0
+                    }
+                ]
+            },
+            "CF_FlakeTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "flake.png"
+            },
+            "CF_UseFlakeNoiseMapTS": {
+                "name": "UseFlakeNoiseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            }
+        },
+        "TexProperty": [
+            {
+                "OrangePeelTexture": [
+                    {
+                        "CC_UseOrangePeelNormalMapTS": "CC_UseOrangePeelNormalMapTS"
+                    },
+                    {
+                        "CC_OrangePeelTexturePath": "CC_OrangePeelTexturePath"
+                    },
+                    {
+                        "CC_BumpScale": "CC_BumpScale"
+                    },
+                    {
+                        "CC_Rotation": "CC_Rotation"
+                    },
+                    {
+                        "CC_UVRepeat": "CC_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    },
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_CarPaint_Metallic"
+    },
+    "M_CarPaint_Metallic_1": {
+        "NorProperty": [
+            {
+                "Coat": [
+                    {
+                        "CC_Color": "CC_Color"
+                    },
+                    {
+                        "CC_Exponent": "CC_Exponent"
+                    },
+                    {
+                        "CC_Fmin": "CC_Fmin"
+                    },
+                    {
+                        "CC_Fmax": "CC_Fmax"
+                    },
+                    {
+                        "CC_Weight": "CC_Weight"
+                    }
+                ]
+            },
+            {
+                "Flake": [
+                    {
+                        "CF_Color": "CF_Color"
+                    }
+                ]
+            },
+            {
+                "Base": [
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    },
+                    {
+                        "BS_Absorption": "BS_Absorption"
+                    },
+                    {
+                        "BS_DiffuseColor": "BS_DiffuseColor"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "BS_Absorption": {
+                "max": 1,
+                "min": 0,
+                "name": "Absorption",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.1
+            },
+            "BS_DiffuseColor": {
+                "name": "DiffuseColor",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_DiffuseTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "BS_Gamma": {
+                "max": 10,
+                "min": 0,
+                "name": "Gamma",
+                "step": 0.001,
+                "type": 10,
+                "value": 2.2
+            },
+            "BS_GlossyTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "BS_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "BS_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "BS_UseDiffuseMapTS": {
+                "name": "UseDiffuseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "BS_UseGlossyMapTS": {
+                "name": "UseGlossyMapTS",
+                "type": 1,
+                "value": false
+            },
+            "CC_Weight": {
+                "max": 1,
+                "min": 0,
+                "name": "Weight",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "CC_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "CC_Color": {
+                "name": "Color",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_Exponent": {
+                "max": 10,
+                "min": 1,
+                "name": "Exponent",
+                "step": 1,
+                "type": 10,
+                "value": 5
+            },
+            "CC_Fmax": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmax",
+                "step": 1,
+                "type": 10,
+                "value": 0.98
+            },
+            "CC_Fmin": {
+                "max": 1,
+                "min": 0,
+                "name": "Fmin",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.08
+            },
+            "CC_OrangePeelTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "CC_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "CC_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "CC_UseOrangePeelNormalMapTS": {
+                "name": "UseOrangePeelNormalMapTS",
+                "type": 1,
+                "value": false
+            },
+            "CF_Repeat": {
+                "max": 10000000,
+                "min": 0,
+                "name": "Repeat",
+                "step": 0.01,
+                "type": 10,
+                "value": 3
+            },
+            "CF_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "CF_Color": {
+                "name": "Color",
+                "type": 16,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 0
+                    }
+                ]
+            },
+            "CF_FlakeTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "flake.png"
+            },
+            "CF_UseFlakeNoiseMapTS": {
+                "name": "UseFlakeNoiseMapTS",
+                "type": 1,
+                "value": false
+            },
+            "GE_BumpTexturePath": {
+                "name": "Path",
+                "type": 36,
+                "value": "orangepeel.tif"
+            },
+            "GE_BumpScale": {
+                "max": 1,
+                "min": -1,
+                "name": "BumpScale",
+                "step": 0.01,
+                "type": 10,
+                "value": -1
+            },
+            "GE_Rotation": {
+                "max": 6.28000020980835,
+                "min": 0,
+                "name": "Rotation",
+                "step": 0.10000000149011612,
+                "type": 10,
+                "value": 0
+            },
+            "GE_UVRepeat": {
+                "name": "UVRepeat",
+                "type": 12,
+                "value": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 1
+                    }
+                ]
+            },
+            "GE_UseBumpMapTS": {
+                "name": "UseBumpMapTS",
+                "type": 1,
+                "value": false
+            }
+        },
+        "TexProperty": [
+            {
+                "OrangePeelTexture": [
+                    {
+                        "CC_UseOrangePeelNormalMapTS": "CC_UseOrangePeelNormalMapTS"
+                    },
+                    {
+                        "CC_OrangePeelTexturePath": "CC_OrangePeelTexturePath"
+                    },
+                    {
+                        "CC_BumpScale": "CC_BumpScale"
+                    },
+                    {
+                        "CC_Rotation": "CC_Rotation"
+                    },
+                    {
+                        "CC_UVRepeat": "CC_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "NormalTexture": [
+                    {
+                        "GE_UseBumpMapTS": "GE_UseBumpMapTS"
+                    },
+                    {
+                        "GE_BumpTexturePath": "GE_BumpTexturePath"
+                    },
+                    {
+                        "GE_BumpScale": "GE_BumpScale"
+                    },
+                    {
+                        "GE_Rotation": "GE_Rotation"
+                    },
+                    {
+                        "GE_UVRepeat": "GE_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "DiffuseTexture": [
+                    {
+                        "BS_UseDiffuseMapTS": "BS_UseDiffuseMapTS"
+                    },
+                    {
+                        "BS_DiffuseTexturePath": "BS_DiffuseTexturePath"
+                    },
+                    {
+                        "BS_Rotation": "BS_Rotation"
+                    },
+                    {
+                        "BS_UVRepeat": "BS_UVRepeat"
+                    }
+                ]
+            },
+            {
+                "FlakeTexture": [
+                    {
+                        "CF_UseFlakeNoiseMapTS": "BS_UVRepeat"
+                    },
+                    {
+                        "CF_FlakeTexturePath": "CF_FlakeTexturePath"
+                    },
+                    {
+                        "CF_BumpScale": "CF_BumpScale"
+                    },
+                    {
+                        "CF_Repeat": "CF_Repeat"
+                    }
+                ]
+            },
+            {
+                "GlossyTexture": [
+                    {
+                        "BS_Gamma": "BS_Gamma"
+                    },
+                    {
+                        "BS_GlossyTexturePath": "BS_GlossyTexturePath"
+                    },
+                    {
+                        "BS_UseGlossyMapTS": "BS_UseGlossyMapTS"
+                    }
+                ]
+            }
+        ],
+        "type": "M_CarPaint_Metallic_1"
+    },
+    "M_Shadow": {
+        "NorProperty": [
+            {
+                "Base": [
+                    {
+                        "ShadowAttenuation": "ShadowAttenuation"
+                    },
+                    {
+                        "BS_AOIntensity": "BS_AOIntensity"
+                    }
+                ]
+            }
+        ],
+        "Prop": {
+            "BS_AOIntensity": {
+                "max": 1,
+                "min": 0,
+                "name": "AOIntensity",
+                "step": 0.01,
+                "type": 10,
+                "value": 1
+            },
+            "ShadowAttenuation": {
+                "max": 1,
+                "min": 0,
+                "name": "ShadowAttenuation",
+                "step": 0.01,
+                "type": 10,
+                "value": 0.2
+            }
+        },
+        "type": "M_Shadow"
+    }
+}

@@ -1,0 +1,34 @@
+# vs
+/BuildInfo/
+/.vs/
+Debug/
+Release/
+*.db
+*.opendb
+*.cache
+/ipch/
+*.pdb
+*.idb
+*.log
+*.tlog
+*.vssettings
+*.exp
+*.patch
+*.iobj
+*.ipdb
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.sdf
+# git
+.gitmodules
+
+# vim
+*.~
+
+
+
+#Òþ²ØµÄÎÄ¼þ
+
+
+/SDK/

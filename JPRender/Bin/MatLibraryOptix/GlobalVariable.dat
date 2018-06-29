@@ -1,0 +1,317 @@
+{
+  "RendererAO": {
+    "NorProperty": {
+      "AO": [
+        "AOR_AORayDistanceMin",
+        "AOR_AORayDistanceMax",
+        "AOR_RayDistanceMin",
+        "AOR_RayDistanceMax",
+        "AOR_SPP"
+      ]
+    },
+    "Prop": {
+      "AOR_AORayDistanceMin": {
+        "max": 10,
+        "min": 0,
+        "name": "AORayDistanceMin",
+        "step": 0.01,
+        "type": 10,
+        "value": 0.0001
+      },
+      "AOR_AORayDistanceMax": {
+        "max": 10000,
+        "min": 0,
+        "name": "AORayDistanceMax",
+        "step": 0.01,
+        "type": 10,
+        "value": 1
+      },
+      "AOR_RayDistanceMax": {
+        "max": 1000000,
+        "min": 0,
+        "name": "RayDistanceMax",
+        "step": 1,
+        "type": 10,
+        "value": 10000
+      },
+      "AOR_RayDistanceMin": {
+        "max": 10,
+        "min": 0,
+        "name": "RayDistanceMin",
+        "step": 0.01,
+        "type": 10,
+        "value": 0.0001
+      },
+      "AOR_SPP": {
+        "max": 8192,
+        "min": 1,
+        "name": "SPP",
+        "step": 1,
+        "type": 10,
+        "value": 256
+      }
+    },
+    "type": "RendererAO"
+  },
+  "RendererDepth": {
+    "NorProperty": {
+      "DepthRenderer": [
+        "DepthR_DepthMin",
+        "DepthR_DepthMax",
+        "DepthR_SPP"
+      ]
+    },
+    "Prop": {
+      "DepthR_DepthMax": {
+        "max": 10000,
+        "min": 0,
+        "name": "DepthMax",
+        "step": 0.1,
+        "type": 10,
+        "value": 1
+      },
+      "DepthR_DepthMin": {
+        "max": 10000,
+        "min": 0,
+        "name": "DepthMin",
+        "step": 0.1,
+        "type": 10,
+        "value": 0.1
+      },
+      "DepthR_SPP": {
+        "max": 8192,
+        "min": 1,
+        "name": "SPP",
+        "step": 1,
+        "type": 10,
+        "value": 256
+      }
+    },
+    "type": "RendererDepth"
+  },
+  "RendererNormal": {
+    "NorProperty": {
+      "NormalRenderer": [
+        "NorR_SPP",
+        "NorR_CameraSpaceNormal"
+      ]
+    },
+    "Prop": {
+      "NorR_CameraSpaceNormal": {
+        "name": "CameraSpaceNormal",
+        "type": 1,
+        "value": false
+      },
+      "NorR_SPP": {
+        "max": 8192,
+        "min": 1,
+        "name": "SPP",
+        "step": 1,
+        "type": 10,
+        "value": 256
+      }
+    },
+    "type": "RendererNormal"
+  },
+  "Renderer": {
+    "NorProperty": {
+      "Regular": [
+        "BadColor",
+        "ImportanceThreshold",
+        "RayMaxDepth",
+        "SPP",
+        "RayDistanceMin",
+        "RayDistanceMax",
+        "EnvTexturePath",
+        "EnableGI",
+        "EnableSkybox"
+      ],
+      "DOF": [
+        "EnableDOF",
+        "LensRadius",
+        "FocalLength"
+      ],
+      "AO": [
+        "EnableAO",
+        "AORayDistanceMin",
+        "AORayDistanceMax"
+      ],
+      "Ground": [
+        "EnableGround",
+        "ShadowAttenuation",
+        "AOIntensity"
+      ],
+      "PostStage": [
+        "EnableAIdenoise",
+        "PostGamma",
+        "PostExposure",
+        "PostBlend"
+      ]
+    },
+    "Prop": {
+      "AORayDistanceMax": {
+        "max": 10000,
+        "min": 0,
+        "name": "AORayDistanceMax",
+        "step": 0.01,
+        "type": 10,
+        "value": 1
+      },
+      "AORayDistanceMin": {
+        "max": 10,
+        "min": 0,
+        "name": "AORayDistanceMin",
+        "step": 0.01,
+        "type": 10,
+        "value": 0.0001
+      },
+      "BadColor": {
+        "name": "BadColor",
+        "type": 16,
+        "value": [
+          {
+            "value": 1
+          },
+          {
+            "value": 0
+          },
+          {
+            "value": 0
+          }
+        ]
+      },
+      "EnvTexturePath": {
+        "name": "EnvTexturePath",
+        "type": 36,
+        "value": "./texture/env/Default.hdr"
+      },
+      "FocalLength": {
+        "max": 5000,
+        "min": 0,
+        "name": "FocalLength",
+        "step": 10,
+        "type": 10,
+        "value": 100
+      },
+      "ImportanceThreshold": {
+        "max": 1,
+        "min": 0,
+        "name": "ImportanceThreshold",
+        "step": 0.0001,
+        "type": 10,
+        "value": 0.001
+      },
+      "LensRadius": {
+        "max": 100,
+        "min": 0,
+        "name": "LensRadius",
+        "step": 0.5,
+        "type": 10,
+        "value": 1
+      },
+      "PostBlend": {
+        "max": 1,
+        "min": 0,
+        "name": "PostBlend",
+        "step": 0.1,
+        "type": 10,
+        "value": 0
+      },
+      "PostExposure": {
+        "max": 10,
+        "min": 0,
+        "name": "PostExposure",
+        "step": 0.1,
+        "type": 10,
+        "value": 6
+      },
+      "PostGamma": {
+        "max": 10,
+        "min": 0,
+        "name": "PostGamma",
+        "step": 0.1,
+        "type": 10,
+        "value": 3.2
+      },
+      "ShadowAttenuation": {
+        "max": 1,
+        "min": 0,
+        "name": "ShadowAttenuation",
+        "step": 0.1,
+        "type": 10,
+        "value": 0.2
+      },
+      "AOIntensity": {
+        "max": 1,
+        "min": 0,
+        "name": "AOIntensity",
+        "step": 0.1,
+        "type": 10,
+        "value": 1
+      },
+      "RayDistanceMax": {
+        "max": 500000,
+        "min": 1000,
+        "name": "RayDistanceMax",
+        "step": 0.5,
+        "type": 10,
+        "value": 10000
+      },
+      "RayDistanceMin": {
+        "max": 10,
+        "min": 0,
+        "name": "RayDistanceMin",
+        "step": 0.01,
+        "type": 10,
+        "value": 0.0001
+      },
+      "RayMaxDepth": {
+        "max": 10,
+        "min": 0,
+        "name": "RayMaxDepth",
+        "step": 1,
+        "type": 10,
+        "value": 3
+      },
+      "SPP": {
+        "max": 8192,
+        "min": 1,
+        "name": "SPP",
+        "step": 1,
+        "type": 10,
+        "value": 256
+      },
+      "EnableAIdenoise": {
+        "name": "EnableAIdenoise",
+        "type": 1,
+        "value": false
+      },
+      "EnableAO": {
+        "name": "EnableAO",
+        "type": 1,
+        "value": false
+      },
+      "EnableGround": {
+        "name": "EnableGround",
+        "type": 1,
+        "value": true
+      },
+      "EnableDOF": {
+        "name": "EnableDOF",
+        "type": 1,
+        "value": false
+      },
+      "EnableGI": {
+        "name": "EnableGI",
+        "type": 1,
+        "value": true
+      },
+      "EnableSkybox": {
+        "name": "EnableSkybox",
+        "type": 1,
+        "value": true
+      }
+    },
+    "type": "Renderer"
+  }
+}
