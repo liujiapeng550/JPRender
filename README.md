@@ -27,4 +27,4 @@ boost
 ### 木纹材质
 ![](https://github.com/liujiapeng550/JPRender/blob/master/img/wood.bmp?raw=true)
 ### 玻璃材质
-![](https://github.com/liujiapeng550/JPRender/blob/master/img/glass.bmp?raw=true)
+![](https://github.com/liujiapeng550/JPRender/blob/master/img/glass.png?raw=true)
