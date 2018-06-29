@@ -1,0 +1,244 @@
+﻿  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\IntersectionPlane.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\IntersectionPlane.cu" -clean 
+  IntersectionPlane.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\IntersectionSphere.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\IntersectionSphere.cu" -clean 
+  IntersectionSphere.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_AO.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_AO.cu" -clean 
+  renderer_AO.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\callable.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\callable.cu" -clean 
+  callable.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_depth.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_depth.cu" -clean 
+  renderer_depth.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\Material.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\Material.cu" -clean 
+  Material.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_normal.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_normal.cu" -clean 
+  renderer_normal.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\PickProgram.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\PickProgram.cu" -clean 
+  PickProgram.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_radiance.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_radiance.cu" -clean 
+  renderer_radiance.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx   -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\IntersectionTriangleMesh.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\IntersectionTriangleMesh.cu" -clean 
+  IntersectionTriangleMesh.cu
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+  Compiling CUDA source file src\IntersectionPlane.cu...
+  Compiling CUDA source file src\IntersectionSphere.cu...
+  Compiling CUDA source file src\renderer_depth.cu...
+  Compiling CUDA source file src\PickProgram.cu...
+  Compiling CUDA source file src\callable.cu...
+  Compiling CUDA source file src\renderer_AO.cu...
+  Compiling CUDA source file src\renderer_normal.cu...
+  Compiling CUDA source file src\Material.cu...
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\IntersectionPlane.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\IntersectionPlane.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\IntersectionSphere.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\IntersectionSphere.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_depth.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_depth.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\PickProgram.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\PickProgram.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\callable.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\callable.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_AO.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_AO.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_normal.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_normal.cu" 
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\Material.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\Material.cu" 
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/callable.cu(6): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  IntersectionSphere.cu
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  PickProgram.cu
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/callable.cu(35): warning : function "UniformSampleHemisphere" was declared but never referenced
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/callable.cu(44): warning : function "UniformSampleSphere" was declared but never referenced
+  Compiling CUDA source file src\renderer_radiance.cu...
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/callable.cu(116): warning : function "CosineSampleHemisphere_hack" was declared but never referenced
+  Compiling CUDA source file src\IntersectionTriangleMesh.cu...
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/callable.cu(196): warning : function "ErfInv" was declared but never referenced
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/callable.cu(226): warning : function "Erf" was declared but never referenced
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/Material.cu(273): warning : statement is unreachable
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/Material.cu(297): warning : statement is unreachable
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/Material.cu(533): warning : statement is unreachable
+C:/Users/Coder/Desktop/optix/RenderMaxOptixCU/src/Material.cu(57): warning : function "MergeColor" was declared but never referenced
+  IntersectionPlane.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\IntersectionTriangleMesh.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\IntersectionTriangleMesh.cu" 
+  renderer_depth.cu
+  
+  C:\Users\Coder\Desktop\optix\RenderMaxOptixCU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/common -IC:\Users\Coder\Desktop\optix\RenderMaxOptixCU\/src/ -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include -IC:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"     --keep-dir x64\Debug -maxrregcount=0  --machine 64 -ptx -cudart shared  -o C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\bin\ptx\renderer_radiance.cu.ptx "C:\Users\Coder\Desktop\optix\RenderMaxOptixCU\src\renderer_radiance.cu" 
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  renderer_AO.cu
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  renderer_normal.cu
+  IntersectionTriangleMesh.cu
+  callable.cu
+  Material.cu
+  renderer_radiance.cu
+cl : 命令行 warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
+  Source.h
+  RenderMaxOptixCU.vcxproj -> C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\Bin\ptx\TMax3DOptixCU.lib

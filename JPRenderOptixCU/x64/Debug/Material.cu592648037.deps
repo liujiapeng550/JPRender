@@ -1,0 +1,359 @@
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include\cuda_runtime.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_config.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_config.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\stddef.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\library_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\channel_descriptor.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_runtime_api.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_device_runtime_api.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_runtime_api.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_functions.hpp
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\common_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/common_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\errno.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_string.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\time.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_wtime.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_wstdlib.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xkeycheck.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\use_ansi.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\math.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtr1common
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdlib
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\math_functions.hpp
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\channel_descriptor.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\channel_descriptor.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/device_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_functions.hpp
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_atomic_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\device_double_functions.hpp
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_atomic_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_32_atomic_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_35_atomic_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_32_atomic_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_60_atomic_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_20_intrinsics.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_30_intrinsics.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_32_intrinsics.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_35_intrinsics.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_32_intrinsics.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\sm_61_intrinsics.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\sm_70_rt.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_fetch_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\cuda_texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_indirect_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_indirect_functions.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\builtin_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\driver_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\surface_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\texture_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\device_launch_parameters.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\vector_types.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include\optix_device.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\internal/optix_datatypes.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\internal\../optixu/optixu_vector_types.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include\vector_types.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\internal\optix_declarations.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include\host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\cuda\include\crt/host_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\internal/optix_internal.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\internal\optix_defines.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\internal\../optix_sizet.h
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdio
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10586.0\ucrt\corecrt_stdio_config.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include\optixu/optixu_math_namespace.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\optixu\../optix.h
+c:\users\coder\desktop\optix\rendermaxpbr_testbed\sdk\optixsdk\include\optixu\optixu_vector_functions.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/CUDA/include\vector_functions.h
+C:\Users\Coder\Desktop\optix\RenderMaxPBR_testbed\SDK/OptixSDK/include\optixu\optixu_matrix_namespace.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\cu_common.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\../../host_device/CommonMacro.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\intersection.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\per_ray_data.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\../../host_device/data_renderer.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\../../host_device/data_light.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\../../host_device/data_instance.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\light_model_data.h
+c:\users\coder\desktop\optix\rendermaxoptixcu\src\common_texture_operation.h

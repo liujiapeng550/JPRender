@@ -11,9 +11,7 @@
 #include "IBaseProcess.h"
 #include "EncodingConversion.h"
 #include "freeglut_std.h"
-//test
-#include <optixu\optixu_math_namespace.h>
-#include "../../host_device/data_instance.h"
+
 #include <glm.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
@@ -161,7 +159,7 @@ int main(int,char**){
 
   glfwSetWindowSizeCallback(window,WndSizeCallBack);
   PCREATEENGINEPROCESSINTERFACE pCreateEngineProcessInterface;
-  HMODULE	hdll=LoadLibrary(AsciiToUnicode("TMax3DPBR.dll").c_str());
+  HMODULE	hdll=LoadLibrary(AsciiToUnicode("JPRenderPBR.dll").c_str());
   if(hdll==NULL){
     printf("LoadLibrary False.");
     return 1;
@@ -253,7 +251,7 @@ int main(int,char**){
 
 
   GUI gui;
-  std::cout<<"N="<<sizeof(SData_Material)<<std::endl;
+
   ImVec4 clear_color=ImVec4(0.45f,0.55f,0.60f,1.00f);
   // Main loop
   while(!glfwWindowShouldClose(window)){

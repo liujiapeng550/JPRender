@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B92A9ECA-6DEF-42EC-9A50-3A3FE262E26A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RenderMaxPBR</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <ProjectName>JPRenderPBR</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v140</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v140</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 9.1.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Bin/</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IntDir>$(ProjectDir)$(Platform)/$(Configuration)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>$(ProjectName)</TargetName>
+    <OutDir>$(SolutionDir)Bin/</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)/$(Configuration)/</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)src;$(SolutionDir)SDK/TMaxMath/include;$(ProjectDir)include;$(SolutionDir)SDK/libsodium/include/;$(SolutionDir)SDK/FreeImage/x64/;$(SolutionDir)Code/TMaxCommon/;$(SolutionDir)SDK/Log/include;$(SolutionDir)SDK/json/include;$(SolutionDir)SDK/OptixSDK/include;$(SolutionDir)SDK/CUDA/include;$(SolutionDir)SDK/boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG_;WIN32;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDK/libsodium/lib;$(SolutionDir)SDK\FreeImage\x64;$(SolutionDir)SDK\json\lib;$(SolutionDir)SDK\OpenglX64\lib\;$(SolutionDir)SDK\libsodium\lib;$(SolutionDir)SDK\OptixSDK\lib64;$(SolutionDir)SDK/boost/lib64-msvc-14.0;$(SolutionDir)Code\TMaxCommon\open3dimension\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libsodium.lib;optix.1.lib;FreeImage.lib;jsoncppX64.lib;comsuppw.lib;libboost_filesystem-vc140-mt-1_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDK/TMaxMath/include;$(ProjectDir)include;$(SolutionDir)SDK/libsodium/include/;$(SolutionDir)SDK/FreeImage/x64/;$(SolutionDir)Code/TMaxCommon/;$(SolutionDir)SDK/Log/include;$(SolutionDir)SDK/json/include;$(SolutionDir)SDK/OptixSDK/include;$(SolutionDir)SDK/CUDA/include;$(SolutionDir)SDK/boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>_DEBUG_;_MBCS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <SDLCheck>true</SDLCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDK/libsodium/lib;$(SolutionDir)SDK\FreeImage\x64;$(SolutionDir)SDK\json\lib;$(SolutionDir)SDK\OpenglX64\lib\;$(SolutionDir)SDK\OptixSDK\lib64;$(SolutionDir)SDK/boost/lib64-msvc-14.0;$(SolutionDir)Code\TMaxCommon\open3dimension\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libsodium.lib;optix.1.lib;FreeImage.lib;jsoncppX64.lib;comsuppw.lib;libboost_filesystem-vc140-mt-1_64.lib;open3dimension.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>true</EnableUAC>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <UseHostDefines>false</UseHostDefines>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\JsonConverter.h" />
+    <ClInclude Include="include\core\oclbuffer_manager.h" />
+    <ClInclude Include="include\core\oclcore.h" />
+    <ClInclude Include="include\core\ocldistribution.h" />
+    <ClInclude Include="include\core\oclimage_loader.h" />
+    <ClInclude Include="include\core\oclinstance.h" />
+    <ClInclude Include="include\core\oclinstance_manager.h" />
+    <ClInclude Include="include\core\oclprogram_manager.h" />
+    <ClInclude Include="include\core\oclrng.h" />
+    <ClInclude Include="include\core\ocltexture.h" />
+    <ClInclude Include="include\geometry\oclgeometry_base.h" />
+    <ClInclude Include="include\geometry\oclmath_plane.h" />
+    <ClInclude Include="include\geometry\oclmath_sphere.h" />
+    <ClInclude Include="include\geometry\oclmesh.h" />
+    <ClInclude Include="include\light\ocllight_manager.h" />
+    <ClInclude Include="include\light\ocllight_source_area.h" />
+    <ClInclude Include="include\material\oclmaterial.h" />
+    <ClInclude Include="include\material\oclmaterial_common.h" />
+    <ClInclude Include="include\material\oclmaterial_library.h" />
+    <ClInclude Include="include\material\oclmaterial_manager.h" />
+    <ClInclude Include="include\camera\oclcamera.h" />
+    <ClInclude Include="include\oclmesh_picker.h" />
+    <ClInclude Include="include\renderer\oclrenderer.h" />
+    <ClInclude Include="include\renderer\oclrenderer_AO.h" />
+    <ClInclude Include="include\renderer\oclrenderer_depth.h" />
+    <ClInclude Include="include\renderer\oclrenderer_normal.h" />
+    <ClInclude Include="include\renderer\oclrenderer_radiance.h" />
+    <ClInclude Include="include\rmprocessor.h" />
+    <ClInclude Include="include\light\ocllight_source.h" />
+    <ClInclude Include="include\light\ocllight_source_distant.h" />
+    <ClInclude Include="include\light\ocllight_source_environment.h" />
+    <ClInclude Include="include\light\ocllight_source_point.h" />
+    <ClInclude Include="include\light\ocllight_source_spot.h" />
+    <ClInclude Include="src\OptixRendererContext.h" />
+    <ClInclude Include="src\primes.h" />
+    <ClInclude Include="src\ProcessorAdapter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\camera\oclcamera.cpp" />
+    <ClCompile Include="src\camera\oclcamera_base.cpp" />
+    <ClCompile Include="src\core\JsonConverter.cpp" />
+    <ClCompile Include="src\core\oclbuffer_manager.cpp" />
+    <ClCompile Include="src\core\oclcore.cpp" />
+    <ClCompile Include="src\core\ocldistribution.cpp" />
+    <ClCompile Include="src\core\oclimage_loader.cpp" />
+    <ClCompile Include="src\core\oclinstance.cpp" />
+    <ClCompile Include="src\core\oclinstance_manager.cpp" />
+    <ClCompile Include="src\core\oclprogram_mananger.cpp" />
+    <ClCompile Include="src\core\oclrng.cpp" />
+    <ClCompile Include="src\core\ocltexture.cpp" />
+    <ClCompile Include="src\geometry\oclgeometry_manager.cpp" />
+    <ClCompile Include="src\geometry\oclmath_plane.cpp" />
+    <ClCompile Include="src\geometry\oclmath_sphere.cpp" />
+    <ClCompile Include="src\geometry\oclmesh.cpp" />
+    <ClCompile Include="src\light\ocllight_manager.cpp" />
+    <ClCompile Include="src\light\ocllight_source.cpp" />
+    <ClCompile Include="src\light\ocllight_source_area.cpp" />
+    <ClCompile Include="src\light\ocllight_source_distant.cpp" />
+    <ClCompile Include="src\light\ocllight_source_environment.cpp" />
+    <ClCompile Include="src\light\ocllight_source_point.cpp" />
+    <ClCompile Include="src\light\ocllight_source_spot.cpp" />
+    <ClCompile Include="src\material\oclmaterial.cpp" />
+    <ClCompile Include="src\material\oclmaterial_common.cpp" />
+    <ClCompile Include="src\material\oclmaterial_library.cpp" />
+    <ClCompile Include="src\material\oclmaterial_manager.cpp" />
+    <ClCompile Include="src\renderer\oclrenderer.cpp" />
+    <ClCompile Include="src\renderer\oclrenderer_AO.cpp" />
+    <ClCompile Include="src\renderer\oclrenderer_depth.cpp" />
+    <ClCompile Include="src\renderer\oclrenderer_normal.cpp" />
+    <ClCompile Include="src\renderer\oclrenderer_radiance.cpp" />
+    <ClCompile Include="src\rmprocessor.cpp" />
+    <ClCompile Include="src\oclmesh_picker.cpp" />
+    <ClCompile Include="src\dllmain.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 9.1.targets" />
+  </ImportGroup>
+</Project>
