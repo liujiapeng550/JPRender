@@ -1,0 +1,3 @@
+﻿  FileStream.cpp
+e:\edxutil\edxutil\windows\filestream.cpp(14): error C2039: “ToWString”: 不是“EDX::String”的成员
+  e:\edxutil\edxutil\containers\string.h(37): note: 参见“EDX::String”的声明

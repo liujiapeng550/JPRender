@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Containers\Algorithm.h" />
+    <ClInclude Include="Containers\AllocationPolicies.h" />
+    <ClInclude Include="Containers\Array.h" />
+    <ClInclude Include="Containers\BitArray.h" />
+    <ClInclude Include="Containers\BlockedDimensionalArray.h" />
+    <ClInclude Include="Containers\DimensionalArray.h" />
+    <ClInclude Include="Containers\List.h" />
+    <ClInclude Include="Containers\Map.h" />
+    <ClInclude Include="Containers\Queue.h" />
+    <ClInclude Include="Containers\Set.h" />
+    <ClInclude Include="Containers\SparseArray.h" />
+    <ClInclude Include="Containers\String.h" />
+    <ClInclude Include="Core\Assertion.h" />
+    <ClInclude Include="Core\Char.h" />
+    <ClInclude Include="Core\Crc.h" />
+    <ClInclude Include="Core\CString.h" />
+    <ClInclude Include="Core\Function.h" />
+    <ClInclude Include="Core\Memory.h" />
+    <ClInclude Include="Core\MemoryPool.h" />
+    <ClInclude Include="Core\Misc.h" />
+    <ClInclude Include="Core\Random.h" />
+    <ClInclude Include="Core\SmartPointer.h" />
+    <ClInclude Include="Core\Sorting.h" />
+    <ClInclude Include="Core\Stream.h" />
+    <ClInclude Include="Core\Template.h" />
+    <ClInclude Include="Core\TypeHash.h" />
+    <ClInclude Include="Core\Types.h" />
+    <ClInclude Include="EDXPrerequisites.h" />
+    <ClInclude Include="Graphics\Camera.h" />
+    <ClInclude Include="Graphics\Color.h" />
+    <ClInclude Include="Graphics\EDXGui.h" />
+    <ClInclude Include="Graphics\glext.h" />
+    <ClInclude Include="Graphics\ObjMesh.h" />
+    <ClInclude Include="Graphics\OpenGL.h" />
+    <ClInclude Include="Graphics\Texture.h" />
+    <ClInclude Include="Math\BoundingBox.h" />
+    <ClInclude Include="Math\Constants.h" />
+    <ClInclude Include="Math\EDXMath.h" />
+    <ClInclude Include="Math\FFT.h" />
+    <ClInclude Include="Math\Matrix.h" />
+    <ClInclude Include="Math\Ray.h" />
+    <ClInclude Include="Math\SparseMatrix.h" />
+    <ClInclude Include="Math\Vec2.h" />
+    <ClInclude Include="Math\Vec3.h" />
+    <ClInclude Include="Math\Vec4.h" />
+    <ClInclude Include="Math\VecBase.h" />
+    <ClInclude Include="Math\Vector.h" />
+    <ClInclude Include="SIMD\BoolSSE.h" />
+    <ClInclude Include="SIMD\FloatSSE.h" />
+    <ClInclude Include="SIMD\IntSSE.h" />
+    <ClInclude Include="SIMD\SSE.h" />
+    <ClInclude Include="Windows\Application.h" />
+    <ClInclude Include="Windows\Atomics.h" />
+    <ClInclude Include="Windows\Base.h" />
+    <ClInclude Include="Windows\Bitmap.h" />
+    <ClInclude Include="Windows\Debug.h" />
+    <ClInclude Include="Windows\Event.h" />
+    <ClInclude Include="Windows\FileStream.h" />
+    <ClInclude Include="Windows\stb_image.h" />
+    <ClInclude Include="Windows\Threading.h" />
+    <ClInclude Include="Windows\Timer.h" />
+    <ClInclude Include="Windows\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Containers\String.cpp" />
+    <ClCompile Include="Core\Crc.cpp" />
+    <ClCompile Include="Core\CString.cpp" />
+    <ClCompile Include="Core\Stream.cpp" />
+    <ClCompile Include="Graphics\Camera.cpp" />
+    <ClCompile Include="Graphics\Color.cpp" />
+    <ClCompile Include="Graphics\EDXGui.cpp" />
+    <ClCompile Include="Graphics\ObjMesh.cpp" />
+    <ClCompile Include="Graphics\OpenGL.cpp" />
+    <ClCompile Include="Graphics\Texture.cpp" />
+    <ClCompile Include="Math\FFT.cpp" />
+    <ClCompile Include="Math\Matrix.cpp" />
+    <ClCompile Include="Windows\Application.cpp" />
+    <ClCompile Include="Windows\Bitmap.cpp" />
+    <ClCompile Include="Windows\Debug.cpp" />
+    <ClCompile Include="Windows\FileStream.cpp" />
+    <ClCompile Include="Windows\Threading.cpp" />
+    <ClCompile Include="Windows\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="UtilVis.natvis">
+      <SubType>Designer</SubType>
+    </Natvis>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{197C330A-0EBC-47DC-8A32-0F05F315F0C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EDXUtil</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

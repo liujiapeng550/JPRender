@@ -110,7 +110,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)SDK\glew-2.0.0\include;$(SolutionDir)SDK;$(SolutionDir)SDK\glm;$(SolutionDir)SDK\GLEW\include;$(SolutionDir)SDK\Assimp\include;$(SolutionDir)SDK\freeglut\include\GL;$(ProjectDir)src;$(SolutionDir)Code/TMaxCommon;$(SolutionDir)SDK/TMaxMath/include;$(SolutionDir)SDK/include;$(SolutionDir)SDK/glfw/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDK\glew-2.0.0\include;$(SolutionDir)SDK;$(SolutionDir)SDK\glm;$(SolutionDir)SDK\GLEW\include;$(SolutionDir)SDK\Assimp\include;$(SolutionDir)SDK\freeglut\include\GL;$(ProjectDir)src;$(SolutionDir)Code/TMaxCommon;$(SolutionDir)SDK/TMaxMath/include;$(SolutionDir)SDK/include;$(SolutionDir)SDK/glfw/include;$(SolutionDir)../EDXUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__OCL_INTERNAL_DEBUG__;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;GLM;GLM_ENABLE_EXPERIMENTAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions> /NODEFAULTLIB:"libcmt.lib" %(AdditionalOptions)</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
